@@ -1,10 +1,19 @@
 /* your code */
+table{
+	border-collapse: collapse;
+	width:100%;
+}
 thead{
 	background-color: #215A8E;
+	color: white;
 }
-tbody: nth-child(odd){
+tr: nth-child(odd){
 	background-color: black;
 }
-tr: nth-child(even){
+tr:nth-child(even){
 	background-color: gray;
+}
+th,td{
+	border: 1px solid #ddd;
+	padding: 8px;
 }
